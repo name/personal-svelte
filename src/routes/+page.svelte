@@ -1,15 +1,3 @@
-<hr />
-
-<p>
-	<b>cunjur</b>
-	<br />
-	security + research
-</p>
-
-<p>slowly learning elixir & rust.</p>
-
-<hr />
-
 <p>
 	[ <a href="https://twitter.com/cunjur" target="_blank">Twitter</a> ] [
 	<a href="https://github.com/name" target="_blank">GitHub</a> ] [
@@ -31,5 +19,3 @@
 	listed on the respective WHOIS contact.
 </p>
 <p>If it's a P1 emergency, you can email ops@multi.sh.</p>
-
-<hr />
