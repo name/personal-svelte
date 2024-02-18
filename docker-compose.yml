@@ -1,18 +1,24 @@
 version: "3.8"
 
 networks:
-  orb-core:
-    name: orb-core
+  personal-vpc:
+    name: personal-vpc
+    external: false
     driver: bridge
-    external: true
+    ipam:
+      driver: default
+      config:
+        - subnet: 10.10.50.0/24
+          ip_range: 10.10.50.0/24
+          gateway: 10.10.50.100
 
 services:
-  prv-personal-svelte:
+  personal-website:
     image: node:18-alpine
-    container_name: prv-personal-svelte
+    container_name: personal-website
     restart: unless-stopped
     networks:
-      - orb-core
+      - personal-vpc
     volumes:
       - type: bind
         source: ./
