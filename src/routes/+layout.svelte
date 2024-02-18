@@ -12,7 +12,7 @@
 	security + research
 </p>
 
-<p>slowly learning elixir & rust.</p>
+<p>currently working on [**redacted**]</p>
 
 <hr />
 
