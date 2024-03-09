@@ -9,10 +9,10 @@
 <p>
 	<b>cunjur</b>
 	<br />
-	security + research
+	backend engineer
 </p>
 
-<p>currently working on [**redacted**]</p>
+<p>currently working on merge</p>
 
 <hr />
 
