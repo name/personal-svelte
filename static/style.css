@@ -1,18 +1,18 @@
 body {
-    font-family: 'Karla', monospace;
-    line-height: 1.4;
+    font-family: monospace;
+    line-height: 1.2;
     font-size: 16px;
     padding: 0 10px;
     margin: 50px auto;
     max-width: 650px;
     background: #000;
     color: #fff;
+    user-select: none;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
 }
 
 ul {
@@ -20,22 +20,12 @@ ul {
 }
 
 #maincontent {
-    max-width: 38em;
+    max-width: 650px;
     margin: 15 auto;
 }
 
 h2 {
     margin-bottom: 0px;
-}
-
-#cunjur {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 370px;
-    height: 314px;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 a {

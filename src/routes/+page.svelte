@@ -1,21 +1,50 @@
+<p>1λ.com :: <span style="color: #ff0019;">~</span> $ cat about.md</p>
 <p>
-	[ <a href="https://twitter.com/cunjur" target="_blank">Twitter</a> ] [
-	<a href="https://github.com/name" target="_blank">GitHub</a> ] [
-	<a href="mailto:charlie@maddex.dev">Email</a> ] [
-	<a href="/pgp.pub" target="_blank">PGP</a> ]
+	> Welcome to my 'corner of the internet'.
+	<br>
+	> I'm a full-time sysadmin, machine learning enthusiast, and employed NEET.
 </p>
 
-<hr />
+<p>1λ.com :: <span style="color: #ff0019;">~</span> $ cat links.md</p>
+<div class="two-column-list">
+	<div>
+		<ul>
+			<li>
+				code on <a href="https://github.com/name" target="_blank">github</a>
+			</li>
+			<li>
+				mail to <a href="mailto:charlie@merge.is" target="_blank">charlie@merge.is</a>	
+			</li>
+			<li>
+				resume on <a href="https://www.linkedin.com/in/charliemaddex" target="_blank">linkedin</a>
+			</li>
+			<li>
+				anime on <a href="https://anilist.co/user/cunjur" target="_blank">anilist</a>
+			</li>
+		</ul>
+	</div>
+	<div>
+		<ul>
+			<li>
+				posts on <a href="https://twitter.com/cunjur" target="_blank">twitter</a>
+			</li>
+			<li>
+				use my <a href="/pgp.pub" target="_blank">PGP key</a>
+			</li>
+			<li>
+				photos on <a href="https://instagram.com/cunjur" target="_blank">instagram</a>
+			</li>
+			<li>
+				music on <a href="https://open.spotify.com/user/kowl7klfi4xxxke4f7t91vtor?si=76b58b35c45e4420&nd=1&dlsi=d26c70e9fecd45c6" target="_blank">spotify</a>
+			</li>
+		</ul>
+	</div>
+</div>
 
+<p>1λ.com :: <span style="color: #ff0019;">~</span> $ cat network.md</p>
 <p>
-	To contact me quickly, <a href="https://twitter.com/cunjur" target="_blank">DM me on Twitter</a>.
-	To contact me securely, please use my PGP key.
-</p>
-
-<hr />
-
-<p>
-	If your inquiry is related to a network I manage or control, please send an email to my email
+	> If your inquiry is related to a network I manage or control, please send an email to my email
 	listed on the respective WHOIS contact.
+	<br>
+	> If it's a P1 emergency, you can email <a href="mailto:ops@merge.is" target="_blank">ops@merge.is</a>.
 </p>
-<p>If it's a P1 emergency, you can email ops@multi.sh.</p>

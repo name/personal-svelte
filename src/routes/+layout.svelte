@@ -1,21 +1,15 @@
 <hr />
 
-<nav>
-	<p>[<a href="/">home</a> ] [<a href="/etc">etc</a> ]</p>
-</nav>
-
-<hr />
-
 <p>
 	<b>cunjur</b>
 	<br />
-	backend engineer
+	sysadmin, ml, employed neet.
 </p>
-
-<p>currently working on merge</p>
-
-<hr />
 
 <slot />
 
 <hr />
+
+<p>
+	© cunjur, licensed under GPL-3.0, code <a href="https://github.com/name/personal-svelte" target="_blank">here</a>.
+</p>

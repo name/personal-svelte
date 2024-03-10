@@ -5,17 +5,68 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="icon" href="%sveltekit.assets%/favicon.jpg" />
-	<link rel="stylesheet" href="%sveltekit.assets%/style.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700&amp;display=swap"
-		rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 	<title>%sveltekit.env.PUBLIC_TITLE%</title>
+	<style>
+		body {
+			font-family: "IBM Plex Mono", monospace;
+			font-weight: 400;
+			font-style: normal;
+			line-height: 1.4;
+			padding: 0 10px;
+			margin: 50px auto;
+			max-width: 650px;
+			background: #ffffff;
+			color: #000000;
+			user-select: none;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+		}
+
+		ul {
+			margin-top: 0px;
+		}
+
+		h2 {
+			margin-bottom: 0px;
+		}
+
+		a {
+			color: #ff0019;
+			text-decoration: none;
+		}
+
+		.two-column-list {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.two-column-list div {
+			flex: 1;
+		}
+
+		.two-column-list ul {
+			list-style-type: none;
+		}
+
+		.two-column-list ul li {
+			margin-bottom: 0.5em;
+		}
+	</style>
 	%sveltekit.head%
 </head>
 
-<body data-sveltekit-preload-data="hover" style="margin: top 70px;">
-	<div style="display: contents; max-width: 38em">%sveltekit.body%</div>
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">
+		%sveltekit.body%
+	</div>
+</body>
+
 </body>
 
 </html>
