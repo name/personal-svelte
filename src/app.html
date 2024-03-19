@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="icon" href="%sveltekit.assets%/favicon.jpg" />
+	<link rel="icon" href="%sveltekit.assets%/fav.jpg" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
@@ -56,6 +56,18 @@
 
 		.two-column-list ul li {
 			margin-bottom: 0.5em;
+		}
+
+		ul {
+			list-style: none;
+		}
+
+		li::before {
+			content: "\2022";
+			color: #FF0019;
+			display: inline-block;
+			width: 1em;
+			margin-left: -1em;
 		}
 	</style>
 	%sveltekit.head%

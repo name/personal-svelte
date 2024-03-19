@@ -1,3 +1,4 @@
+<svelte:head><title>Cunjur's Website</title></svelte:head>
 <p>1λ.com :: <span style="color: #ff0019;">~</span> $ cat about.md</p>
 <p>
 	> Welcome to my 'corner of the internet'.
@@ -16,11 +17,8 @@
 				mail to <a href="mailto:charlie@merge.is" target="_blank">charlie@merge.is</a>	
 			</li>
 			<li>
-				resume on <a href="https://www.linkedin.com/in/charliemaddex" target="_blank">linkedin</a>
-			</li>
-			<li>
 				anime on <a href="https://anilist.co/user/cunjur" target="_blank">anilist</a>
-			</li>
+</li>
 		</ul>
 	</div>
 	<div>
@@ -32,14 +30,16 @@
 				use my <a href="/pgp.pub" target="_blank">PGP key</a>
 			</li>
 			<li>
-				photos on <a href="https://instagram.com/cunjur" target="_blank">instagram</a>
-			</li>
-			<li>
 				music on <a href="https://open.spotify.com/user/kowl7klfi4xxxke4f7t91vtor?si=76b58b35c45e4420&nd=1&dlsi=d26c70e9fecd45c6" target="_blank">spotify</a>
 			</li>
 		</ul>
 	</div>
 </div>
+
+<p>1λ.com :: <span style="color: #ff0019;">~</span> $ cat posts.md</p>
+<ul>
+	<li><a href="/homelab">2024-03-18 :: Building out my Home Lab</a></li>
+</ul>
 
 <p>1λ.com :: <span style="color: #ff0019;">~</span> $ cat network.md</p>
 <p>
